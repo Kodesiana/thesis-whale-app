@@ -226,3 +226,19 @@ select option {
     padding: 0.5rem;
     font-size: 14px;
 }
+
+.attribute-table {
+    table-layout: fixed;
+}
+
+.attribute-table td {
+    overflow: hidden;
+}
+
+.attribute-table thead {
+    font-weight: bold;
+}
+
+.attribute-table tr :nth-last-child(1) {
+    text-align: right;
+}

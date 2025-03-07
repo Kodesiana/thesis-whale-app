@@ -217,8 +217,8 @@ const AlpineApp = {
                 distance: '-',
                 po4_mean: '-',
                 pbo_mean: '-',
+                zos_mean: '-',
                 slope_mean: '-',
-                aspect_mean: '-',
             };
         }
 
@@ -231,8 +231,8 @@ const AlpineApp = {
             distance: this.props.distance.toFixed(4),
             po4_mean: this.props.po4_mean.toFixed(4),
             pbo_mean: this.props.pbo_mean.toFixed(4),
+            zos_mean: this.props.zos_mean.toFixed(4),
             slope_mean: this.props.slope_mean.toFixed(4),
-            aspect_mean: this.props.aspect_mean.toFixed(4),
         };
     },
 
@@ -340,7 +340,7 @@ const AlpineApp = {
 
     onMapMouseLeave() {
         map.getCanvas().style.cursor = '';
-        this.props = null;
+        // this.props = null;
     },
 };
 
