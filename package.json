@@ -8,7 +8,7 @@
     "deploy": "wrangler pages deploy"
   },
   "devDependencies": {
-    "prettier": "^3.4.2",
-    "wrangler": "^3.103.1"
+    "prettier": "^3.6.2",
+    "wrangler": "^4.26.0"
   }
 }
